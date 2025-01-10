@@ -28,22 +28,7 @@
 }
 
 
-.logo{
-    height: 34px;
-    left: 150px;
-    top: 50px;
-}
 
-
-.logo h2{
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 38px;
-    letter-spacing: 0%;
-    text-align: left;
-}
 
 
 .banner-container{
@@ -429,9 +414,9 @@ main{
 
 footer{
     background: rgb(255, 255, 255);
+    z-index: 100;
     padding: 32px 150px;
     height: 226px;
-    align-items: center;
 }
 
 
