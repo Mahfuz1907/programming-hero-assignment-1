@@ -446,11 +446,8 @@ footer h3, .logo{
 }
 
 
-.foot-text{
-    background: none;
-}
 
-.foot-text h3{
+.foot-content h3{
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-size: 32px;
