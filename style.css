@@ -120,8 +120,18 @@
 .pillar{
     width: 80%;
     height: 324px;
-    text-align: left;
     margin: 80px auto;
+}
+
+
+.pillar h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 
@@ -181,9 +191,215 @@
 
 
 
+
+.vision{
+    width: 80%;
+    height: 324px;
+    margin: 80px auto;
+}
+
+
+.vision h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.vision p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 24px 0px 0px 0px;
+}
+
+
+.vision-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin: 32px 0px;
+}
+
+
+.vision-1, .vision-2, .vision-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    height: 325px;
+    width: 410.67px;
+    padding: 32px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+
+
+.vision-1{
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.vision-2{
+    background: rgb(198, 228, 214);
+}
+
+
+.vision-3{
+    background: rgb(247, 235, 207);
+}
+
+
+.vision-1 img{
+    width: 47px;
+    height: 53.09px;
+    background: none;
+}
+
+.vision-2 img{
+    width: 47px;
+    height: 53.09px;
+    background: none;
+}
+
+.vision-3 img{
+    width: 47px;
+    height: 53.09px;
+    background: none;
+}
+
+
+
+.vision-1 h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    background: none;
+}
+
+.vision-2 h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    background: none;
+}
+
+.vision-3 h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    background: none;
+}
+
+
+.vision-1 p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.vision-2 p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.vision-3 p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.vision-1 button{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    margin: 24px 0px;
+    padding: 11px 20px 11px 20px;
+    width: 122px;
+    height: 41px;
+    border: 1px rgb(84, 144, 245);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.vision-2 button{
+    border-radius: 8px;
+    background: rgb(9, 161, 92);;
+    margin: 24px 0px;
+    padding: 11px 20px 11px 20px;
+    width: 122px;
+    height: 41px;
+    border: 1px rgb(9, 161, 92);;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.vision-3 button{
+    border-radius: 8px;
+    background: rgb(255, 194, 57);;
+    margin: 24px 0px;
+    padding: 11px 20px 11px 20px;
+    width: 122px;
+    height: 41px;
+    border: 1px rgb(255, 194, 57);;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
 footer{
     background: rgb(255, 255, 255);
-    z-index: 100;
     padding: 32px 150px;
     height: 226px;
 }
@@ -221,5 +437,3 @@ footer h3, .logo{
     align-items: flex-start;
     margin: 32px auto;
 }
-
-
