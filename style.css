@@ -802,6 +802,11 @@
     text-align: left;
 }
 
+.submit button:hover{
+    background-color: white;
+    color: rgb(0, 106, 80);
+}
+
 
 .money{
     display: flex;
@@ -985,6 +990,10 @@
     height: 57px;
 }
 
+
+.letter-form button:hover{
+    font-size: 20px;
+}
 
 
 /* letter section ends here  */
