@@ -1041,4 +1041,10 @@ footer h3, .logo{
     margin: 32px auto;
 }
 
+
+.foot-content .logo img:hover{
+    width: 117px;
+    height: 26px;
+}
+
 /* footer section ends here */
