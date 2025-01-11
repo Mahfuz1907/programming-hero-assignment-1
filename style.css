@@ -604,6 +604,7 @@
 }
 
 
+
 #drop{
     background:  rgb(198, 228, 214);
     color: rgb(14, 14, 14);
@@ -704,6 +705,25 @@
     letter-spacing: 0%;
     text-align: left;
     border: 0px;
+}
+
+
+.news-1 button:hover{
+    background-color: white;
+    color: rgb(0, 106, 80);
+    font-size: 20px;
+}
+
+.news-2 button:hover{
+    background-color: white;
+    color: rgb(0, 106, 80);
+    font-size: 20px;
+}
+
+.news-3 button:hover{
+    background-color: white;
+    color: rgb(0, 106, 80);
+    font-size: 20px;
 }
 
 
