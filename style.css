@@ -381,14 +381,20 @@
 }
 
 
+.vision-1 button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(84, 144, 245);
+    border: 0px;
+}
+
 .vision-2 button{
     border-radius: 8px;
-    background: rgb(9, 161, 92);;
+    background: rgb(9, 161, 92);
     margin: 24px 0px;
     padding: 11px 20px 11px 20px;
     width: 122px;
     height: 41px;
-    border: 1px rgb(9, 161, 92);;
+    border: 1px rgb(9, 161, 92);
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
     font-size: 16px;
@@ -399,14 +405,21 @@
 }
 
 
+.vision-2 button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(9, 161, 92);
+    border: 0px;
+}
+
+
 .vision-3 button{
     border-radius: 8px;
-    background: rgb(255, 194, 57);;
+    background: rgb(255, 194, 57);
     margin: 24px 0px;
     padding: 11px 20px 11px 20px;
     width: 122px;
     height: 41px;
-    border: 1px rgb(255, 194, 57);;
+    border: 1px rgb(255, 194, 57);
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
     font-size: 16px;
@@ -414,6 +427,13 @@
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+
+.vision-3 button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 194, 57);
+    border: 0px;
 }
 
 /* quote section starts here */
