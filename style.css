@@ -683,8 +683,213 @@
 }
 /* news section ends here */
 
+/* donate section starts here  */
+.donate{
+    width: 80%;
+    margin: 80px auto;
+}
 
 
+.donate-text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0px;
+}
+
+
+.donate-text h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.donate-text p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.submit{
+    margin: 0px auto 32px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit button{
+    padding: 17px 34px 17px 34px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.money{
+    display: flex;
+    justify-content: space-around;
+    gap: 22px;
+    width: 1020px;
+    margin: 0px auto;
+}
+
+.money-1, .money-3, .money-4{
+    padding: 36px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.money-2{
+    padding: 36px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+
+
+.money-1, .money-2, .money-3, .money-4{
+    width: 253px;
+}
+
+
+.money-1 h1, .money-2 h1, .money-3 h1, .money-4 h1{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 36px;
+    font-weight: 666;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    background: none;
+    margin: auto 0px;
+}
+
+.donation{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+
+
+.donation .amount{
+    padding: 20px 40px 20px 40px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    width: 903px;
+    height: 24px;
+    margin: 32px 0px;
+}
+/* donate section ends here  */
+
+
+/* letter section starts here  */
+.letter{
+    width: 80%;
+    margin: 80px auto;
+}
+
+.letter-content{
+    padding: 80px 100px 80px 100px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.letter-content h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    background: none;
+}
+
+
+.letter-content .large{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.letter-content .small{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.letter-form input{
+    width: 491px;
+    padding: 18px 40px 18px 40px;
+    height: 19px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    border: 0px;
+}
+
+
+.letter-form button{
+    padding: 17px 34px 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 143px;
+    border: 0px;
+    height: 57px;
+}
+
+
+
+/* letter section ends here  */
 /* footer section starts here */
 
 
