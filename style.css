@@ -194,7 +194,6 @@
 
 .vision{
     width: 80%;
-    height: 324px;
     margin: 80px auto;
 }
 
@@ -398,6 +397,71 @@
     text-align: left;
 }
 
+
+.quote{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width: 80%;
+    margin: 48px auto;
+    padding: 48px 24px 48px 24px;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 30px;
+}
+
+.quote-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    background: none;
+}
+
+
+.quote-text{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.quote-name{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    background: none;
+}
+
+
+.quote-design{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+} 
+
+
+
+
+
+
+/* footer section starts here */
+
+
+
 footer{
     background: rgb(255, 255, 255);
     padding: 32px 150px;
@@ -437,3 +501,5 @@ footer h3, .logo{
     align-items: flex-start;
     margin: 32px auto;
 }
+
+/* footer section ends here */
