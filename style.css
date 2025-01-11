@@ -172,6 +172,12 @@
 }
 
 
+.pillar .pillar-item .pillar-1:hover{
+    border: 0px;
+    background: rgb(240, 240, 240);
+}
+
+
 .pillar .pillar-item .pillar-1 img{
     width: 47px;
     height: 53.09px;
